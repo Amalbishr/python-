@@ -1,0 +1,31 @@
+Command Line Arguments:
+     dir = pet_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 1 key-value pairs.
+Below are 1 of them:
+ 1 key:  German_shepherd_dog_04931.jpg  label:                     german
+
+     MATCH:
+
+ German_shepherd_dog_04931.jpg: 
+Real:                     german   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+ NOT A MATCH:
+
+# Total Images 1 # Matches: 1 # NOT Matches: 0
+
+     MATCH:
+
+ German_shepherd_dog_04931.jpg: 
+Real:                     german   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 0  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+# Total Images 1 # Matches: 1 # NOT Matches: 0
+* Doesn't Check the Results Dictionary because 'calculates_results_stats' hasn't been defined.
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
